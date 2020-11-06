@@ -1,0 +1,11 @@
+[package]
+name = "demogame"
+version = "0.1.0"
+authors = ["Hagsteel <me@hagsteel.com>"]
+edition = "2018"
+description = "demo game with florp engine"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+florp-engine = { path = "../florp-engine" }
